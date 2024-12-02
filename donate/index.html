@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Save Earth - Donate Now</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <!-- Hero Section with Background Image -->
+    <div class="hero-section">
+        <div class="overlay">
+            <h1>Save the Earth</h1>
+            <p>Your donation can make a difference. Help protect the planet by planting trees and supporting environmental causes.</p>
+            <button onclick="scrollToForm()">Donate Now</button>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section class="about">
+        <h2>Why Donate?</h2>
+        <p>Your generous donation will help us plant trees, reduce carbon footprints, and fight climate change.</p>
+        <div class="benefits">
+            <div class="benefit">
+                <h3>🌳 Trees Planted</h3>
+                <p>Each dollar plants a tree, contributing to a healthier planet.</p>
+            </div>
+            <div class="benefit">
+                <h3>🌍 Sustainable Future</h3>
+                <p>Your donation supports environmental preservation for future generations.</p>
+            </div>
+            <div class="benefit">
+                <h3>🌱 Clean Environment</h3>
+                <p>Help reduce pollution and promote biodiversity.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Donation Form Section -->
+    <section id="donate">
+        <h2>Make a Donation</h2>
+        <form id="donation-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <input type="number" name="amount" placeholder="Donation Amount ($)" required>
+            <button type="submit">Donate Now</button>
+        </form>
+        <p id="thank-you" style="display: none;">Thank you for your generous donation!</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Save Earth Initiative. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
